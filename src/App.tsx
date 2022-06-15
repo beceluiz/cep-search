@@ -1,8 +1,12 @@
 import React from 'react'
+import { GlobalStyle } from './styles/globalStyle'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      Hello World
+      <GlobalStyle/>
+    </div>
   )
 }
 
