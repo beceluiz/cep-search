@@ -1,20 +1,9 @@
-import * as React from "react"
-import Input from "./components/TestimonialItem"
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from "@chakra-ui/react"
-import TestimonialItem from "./components/TestimonialItem"
+import React from 'react'
 
+function App() {
+  return (
+    <div>App</div>
+  )
+}
 
-export const App = () => (
-  <ChakraProvider theme={theme}>
-  <TestimonialItem/>
-  </ChakraProvider>
-)
+export default App
