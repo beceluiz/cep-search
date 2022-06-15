@@ -1,12 +1,18 @@
 import React from 'react'
-import { GlobalStyle } from './styles/globalStyle'
+import { Container } from './components/body/style'
+import { Header } from './components/Header'
+import { GlobalStyle  } from './styles/globalStyle'
 
 function App() {
+// const [list, setList] = []
+
   return (
-    <div>
-      Hello World
-      <GlobalStyle/>
-    </div>
+    <>
+    <Container>
+      <Header/>
+    </Container>
+       <GlobalStyle/>
+    </>
   )
 }
 

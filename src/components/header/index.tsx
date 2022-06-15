@@ -1,7 +1,11 @@
-import React from 'react'
+import { Content} from "./styles";
+import React from "react";
 
-export const Header = () => {
-  return (
-    <div>Header</div>
-  )
+export function Header () {
+return (
+  <Content>
+  <h1>To-do-list</h1>
+  <p>This project is a simple to-do-list made with ReactJS and Typescript </p>
+  </Content>
+)
 }
