@@ -10,12 +10,12 @@ function App() {
 const [list, setList] = useState<Item[]>([
   {
     id: 1,
-    name: 'sexo', 
+    name: 'Clear my room', 
     done: false,
   },
    {
 id: 2,
-name:'punheta',
+name:'go to the market',
 done: true,
   }
 ])
