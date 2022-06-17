@@ -28,6 +28,7 @@ done: true,
 ])
 
 function handleAddTasks (taskName : string) {
+
   let newList = [...list];
   newList.push({
     id: getId(),
