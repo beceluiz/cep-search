@@ -12,7 +12,8 @@ const [inputText, setInputText] = useState('')
 
 const handleKeyUp = (event: KeyboardEvent) => {
     if(event.code === 'Enter' && inputText !== '') {
-        onEnter(inputText)
+        onEnter(inputText);
+        setInputText('')
 }
 }
     return(<AddAreaContainer>
