@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 import { ListItem } from './components/ListItem'
 import { GlobalStyle  } from './styles/globalStyle'
 import { Item } from './types/Item'
+import { AddArea } from './components/AddArea'
 
 
 function App() {
@@ -25,7 +26,7 @@ done: true,
     <Container>
       <Header/>
       {/* new item area */}
-
+         <AddArea/>
       {list.map((item, index) =>{
         return <ListItem key={index} item={item}/>
       })}
