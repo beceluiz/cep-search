@@ -8,25 +8,40 @@ import { AddArea } from './components/AddArea'
 
 
 function App() {
+
+  let id = 0;
+function getId() {
+  return id++;
+}
+
 const [list, setList] = useState<Item[]>([
   {
-    id: 1,
+    id: getId(),
     name: 'Clear my room', 
     done: false,
   },
    {
-id: 2,
+id: getId(),
 name:'go to the market',
 done: true,
   }
 ])
 
+function handleAddTasks (taskName : string) {
+  let newList = [...list];
+  newList.push({
+    id: getId(),
+    name: taskName,
+    done:false
+  });
+  setList(newList)
+}
+
   return (
     <>
     <Container>
       <Header/>
-      {/* new item area */}
-         <AddArea/>
+         <AddArea onEnter={handleAddTasks} />
       {list.map((item, index) =>{
         return <ListItem key={index} item={item}/>
       })}
