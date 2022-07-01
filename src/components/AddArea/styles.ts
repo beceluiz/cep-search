@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AddAreaContainer = styled.div`
-  border: 1px solid #555;
+  border: 1px solid #fff;
   border-radius: 10px;
   padding: 10px;
   margin: 0 auto;
@@ -9,7 +9,6 @@ export const AddAreaContainer = styled.div`
   display: flex;
   align-items: center;
   max-width: 980px;
-
   .plusButton {
     margin-right: 5px;
   }

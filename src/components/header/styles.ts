@@ -5,7 +5,6 @@ export const Content = styled.header`
   margin: 0 auto;
   max-width: 980px;
 
-  border: 1px solid red;
   padding: 0.75rem;
   display: block;
   text-align: center;
@@ -15,6 +14,6 @@ export const Content = styled.header`
     font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
 `;

@@ -9,12 +9,13 @@ export const ListItemContainer = styled.div(
     `
     margin: 0 auto;
     display: flex;
-    background: #20212c;
+    background: #423a6f;
     padding: 0.625rem;
     border-radius: 0.625rem;
     margin-bottom: 0.625rem;
     align-items: center;
     max-width:980px;
+    border: 1px solid #423a6f;
     
   
     input {
