@@ -1,9 +1,18 @@
-# 🚧  Em construção... 🚧
+# To-do List
 
-## next steps
+<img src="src/assets/todo.gif">
 
-- better css
-- refactor
-- add a onClick to add tasks clicking on plus icon
-- write a decent readme
-- change plus icon to the right side
+## 🚀 Technologies Used
+
+  - React
+  - Typescript
+  - StyledComponents
+  
+## ☕ Run
+
+```shell
+$ git clone https://github.com/beceluiz/todo.git
+$ cd todo
+$ yarn
+$ yarn start
+```
